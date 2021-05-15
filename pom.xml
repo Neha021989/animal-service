@@ -32,11 +32,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+	<!--  	<dependency>
 			<groupId>io.opentracing.contrib</groupId>
 			<artifactId>opentracing-spring-jaeger-cloud-starter</artifactId>
 			<version>3.1.2</version>
-		</dependency>
+		</dependency>-->
+		 <dependency>
+            <groupId>au.com.dius</groupId>
+            <artifactId>pact-jvm-consumer-junit5_2.12</artifactId>
+            <version>3.5.24</version>
+        </dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
